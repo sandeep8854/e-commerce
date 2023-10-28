@@ -22,8 +22,10 @@ const Left = styled.div`
   padding: 20px;
 `;
 
-const Logo = styled.h1`
-  font-weight: bold;
+const Logo = styled.img`
+  width: 100%;
+  max-width: 172px;
+  height: auto;
 `;
 
 const Desc = styled.p`
@@ -89,7 +91,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>SANDEEP.</Logo>
+        <Logo src={"/image/sandeepE.jpg"} alt="Logo not found"></Logo>
         <Desc>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
