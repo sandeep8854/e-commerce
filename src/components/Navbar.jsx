@@ -4,6 +4,7 @@ import { Badge } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
+//import Icon_ from "../../public/image/sandeepE.jpg";
 
 const Container = styled.div`
   height: 60px;
@@ -45,12 +46,20 @@ const Input = styled.input`
 
 const Center = styled.div`
   flex: 1;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* text-align: center; */
 `;
 
-const Logo = styled.h1`
-  font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+const Logo = styled.img`
+  width: 100%;
+  max-width: 172px;
+  height: auto;
+
+  /* font-weight: bold; */
+  ${mobile({ maxWidth: "89px" })}
 `;
 const Right = styled.div`
   flex: 1;
@@ -79,7 +88,7 @@ function Navbar() {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>SANDEEP.</Logo>
+          <Logo src={"/image/sandeepE.jpg"} alt="Logo not found"></Logo>
         </Center>
         <Right>
           <MenuItem>Register</MenuItem>
