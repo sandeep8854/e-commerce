@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.unsplash.com/photo-1681999683665-6902894af42c?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    url("https://cdn.dribbble.com/users/827126/screenshots/5816283/zoeyshen_chahua.jpg")
       center;
   background-size: cover;
   display: flex;
