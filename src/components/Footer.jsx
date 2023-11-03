@@ -130,8 +130,8 @@ const Footer = () => {
       <Right>
         <Title>Get in touch with us</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} /> Indiqube Gamma,Outer Ring
-          Road,Kadubeesanahalli, Marathahalli 560103
+          <Room style={{ marginRight: "10px" }} /> Indiqube Gamma, Outer Ring
+          Road, Kadubeesanahalli, Marathahalli Bangalore 560103
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +91 8112912494
