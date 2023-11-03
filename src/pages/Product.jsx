@@ -136,7 +136,7 @@ const Product = () => {
             optio vel tenetur quo magnam ducimus reprehenderit dicta cupiditate,
             aliquam facere culpa aspernatur. Quod.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>₹ 2000</Price>
           <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
